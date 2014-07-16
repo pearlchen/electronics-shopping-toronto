@@ -1,0 +1,12 @@
+# Site settings
+title: "Where to buy electronics in Toronto?"
+description: "A listing of local &amp; online electronics/hardware retailers specifically for Toronto-area makers."
+baseurl: ""
+url: "http://pchen.github.io/electronics-shopping-toronto/"
+github_user_url: "https://github.com/pchen/"
+github_repo: "electronics-shopping-toronto"
+twitter_username: PearlChen
+
+# Build settings
+markdown: kramdown
+permalink: pretty
