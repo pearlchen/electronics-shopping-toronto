@@ -65,3 +65,8 @@ BLURB ABOUT THE STORE GOES HERE.
 
 IT CAN BE MULTIPLE PARAGRAPHS BUT BEST TO BE SHORT & SWEET. (AND NO... IT SHOULDN'T BE WRITTEN IN ALL CAPS.)
 ```
+
+## Roadmap
+
+* [ ] Add CI to automatically deploy contents of **_site** folder to **gh-pages** branch
+* [ ] Rewrite some content so be less opinionated and more factual 
