@@ -1,0 +1,240 @@
+/* Base */
+/* ----------------------------------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
+  background-color: #fdfdfd;
+}
+
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
+
+p {
+  margin-bottom: 1em;
+}
+
+a         { color: #2a7ae2; text-decoration: none; }
+a:hover   { color: #000; text-decoration: underline; }
+a:visited { color: #205caa; }
+
+/* Utility */
+
+.wrap:before,
+.wrap:after { content:""; display:table; }
+.wrap:after { clear: both; }
+.wrap {
+  max-width: 800px;
+  padding: 0 30px;
+  margin: 0 auto;
+  zoom: 1;
+}
+
+
+/* Layout Styles */
+/* ----------------------------------------------------------*/
+
+/* Site header */
+
+.site-header {
+  border-top: 5px solid #333;
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 56px;
+  background-color: white;
+  padding: 1em 0;
+}
+
+.site-title {
+  display: block;
+  color: #333;
+  font-size: 26px;
+  letter-spacing: -1px;
+}
+
+/* Site footer */
+
+.site-footer {
+  border-top: 1px solid #e8e8e8;
+  padding: 30px 0;
+}
+
+.footer-heading {
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: -.5px;
+  margin-bottom: 15px;
+}
+
+.site-footer .column { float: left; margin-bottom: 15px; }
+
+.footer-col-1 {
+  width: 175px; /*fallback*/
+  width: -webkit-calc(23.125% - 10px);
+  width: -moz-calc(23.125% - 10px);
+  width: -o-calc(23.125% - 10px);
+  width: calc(23.125% - 10px);
+  margin-right: 10px
+}
+.footer-col-2 {
+  width: 270px; /*fallback*/
+  width: -webkit-calc(35% - 10px);
+  width: -moz-calc(35% - 10px);
+  width: -o-calc(35% - 10px);
+  width: calc(35% - 10px);
+  margin-right: 10px
+}
+.footer-col-3 {
+  width: 335px; /*fallback*/
+  width: -webkit-calc(41.875%);
+  width: -moz-calc(41.875%);
+  width: -o-calc(41.875%);
+  width: calc(41.875%);
+}
+
+.site-footer ul { list-style: none; }
+
+.site-footer li,
+.site-footer p {
+  font-size: 15px;
+  letter-spacing: -.3px;
+  color: #828282;
+}
+
+.github-icon-svg,
+.twitter-icon-svg {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 3px;
+}
+
+
+/* Page Content styles */
+/* ----------------------------------------------------------*/
+
+.page-content {
+  padding: 30px 0;
+  background-color: #fff;
+}
+
+
+/* Home styles */
+/* ----------------------------------------------------------*/
+
+.home h2 {
+  font-size: 22px;
+  background-color: black;
+  color: white;
+  padding: 0.2em 0.5em 0.1em;
+  letter-spacing: 1px;
+}
+
+.home section:not(:first-of-type) {
+  margin-top: 25px;
+}
+
+.home h3 {
+  font-size: 20px;
+}
+
+.home article {
+  padding: 2em 0;
+}
+
+.home article:not(:last-of-type) {
+  border-bottom: 1px solid #ccc;
+}
+
+.home #toronto article {
+  position: relative; /* for right positioning on map */
+  overflow: hidden;
+  min-height: 300px; /* size of map */
+}
+
+.home article .listing-text {
+  width: 50%;
+  width: -webkit-calc(100% - 300px - 20px);
+  width: -moz-calc(100% - 300px - 20px);
+  width: -o-calc(100% - 300px - 20px);
+  width: calc(100% - 300px - 20px);
+}
+
+.home .listing-meta {
+  display: block;
+  font-size: 15px;
+  color: #818181;
+}
+
+.home .listing-meta p {
+  margin-bottom: 0;
+}
+
+.home .listing-content {
+  margin: 0.6em 0;
+}
+
+.home .listing-map {
+  position: absolute;
+  right: 0;
+  top: 2em;
+  width: 300px;
+  height: 300px;
+}
+
+/* media queries 
+/* ----------------------------------------------------------*/
+
+
+@media screen and (max-width: 750px) {
+
+  .home article .listing-text {
+    width: 100%;
+  }
+
+  .home .listing-map {
+    position: relative;
+    right: auto;
+    top: auto;
+    margin: 0 auto;
+  }
+
+  .footer-col-1 {
+    width: 45%; /*fallback*/
+    width: -webkit-calc(50% - 10px);
+    width: -moz-calc(50% - 10px);
+    width: -o-calc(50% - 10px);
+    width: calc(50% - 10px);
+    margin-right: 0;
+  }
+
+  .footer-col-2 { width: 50%; }
+
+  .site-footer .column.footer-col-3 {
+    width: auto;
+    float: none;
+    clear: both;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  
+  .wrap { padding: 0 12px; }
+
+  .site-footer .column {
+    float: none;
+    clear: both;
+    width: auto;
+    margin: 0 0 15px;
+  }
+
+}
