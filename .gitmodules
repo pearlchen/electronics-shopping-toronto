@@ -1,4 +1,0 @@
-[submodule "_site"]
-	path = _site
-	url = git@github.com:pchen/electronics-shopping-toronto.git
-	branch = gh-pages
