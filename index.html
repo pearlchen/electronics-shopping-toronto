@@ -1,72 +1,461 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-<div class="home">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Where to buy electronics in Toronto?</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="A listing of local &amp; online electronics/hardware retailers specifically for Toronto-area makers.">
+    <link rel="canonical" href="http://pchen.github.io/electronics-shopping-toronto//">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+
+</head>
+
+
+    <body>
+
+    <header class="site-header">
+
+  <div class="wrap">
+
+    <h1 class="site-title" href="/">Where to buy electronics in Toronto?</h1>
+
+    <p class="text">A listing of local &amp; online electronics/hardware retailers specifically for Toronto-area makers.</p>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrap">
+      <div class="home">
 
   <section id="toronto">
     <h2>Toronto Electronics Retailers</h2>
 
-    {% for listing in site.toronto_retailers %}
+    
     <article>
       <div class="listing-text">
-        <h3>{{ listing.name }}</h3>
+        <h3>A-1 Electronic Parts</h3>
         <div class="listing-meta">
-          <p><a href="{{ listing.website }}">{{ listing.website }}</a></p>
-          <p>{{ listing.address }}</p>
-          <p>{{ listing.phone }}</p>
+          <p><a href="http://a1parts.com">http://a1parts.com</a></p>
+          <p>196 North Queen Street, Toronto, ON</p>
+          <p>(416) 255-0343</p>
         </div>
         <div class="listing-content">
-          {{ listing.content | markdownify }}
+          <p>I haven’t been here but I’m told it’s like Active Surplus. </p>
+
         </div>
       </div>
       <div class="listing-map">
-        <a href="http://maps.google.com?q={{ listing.address | cgi_escape}}" target="_blank"><img src="http://maps.googleapis.com/maps/api/staticmap?size=300x300&markers=color:red%7C{{ listing.address | cgi_escape}}"></a>
+        <a href="http://maps.google.com?q=196+North+Queen+Street%2C+Toronto%2C+ON" target="_blank"><img src="http://maps.googleapis.com/maps/api/staticmap?size=300x300&markers=color:red%7C196+North+Queen+Street%2C+Toronto%2C+ON"></a>
       </div>
     </article>
-    {% endfor %}
+    
+    <article>
+      <div class="listing-text">
+        <h3>Above All Electronics</h3>
+        <div class="listing-meta">
+          <p><a href=""></a></p>
+          <p>602 Bloor St W, Toronto, ON</p>
+          <p>(416) 588-8119</p>
+        </div>
+        <div class="listing-content">
+          <p>It’s been a while but I remember this place being sort of between Active Surplus and Supremetronics in selection. </p>
+
+        </div>
+      </div>
+      <div class="listing-map">
+        <a href="http://maps.google.com?q=602+Bloor+St+W%2C+Toronto%2C+ON" target="_blank"><img src="http://maps.googleapis.com/maps/api/staticmap?size=300x300&markers=color:red%7C602+Bloor+St+W%2C+Toronto%2C+ON"></a>
+      </div>
+    </article>
+    
+    <article>
+      <div class="listing-text">
+        <h3>Active Surplus</h3>
+        <div class="listing-meta">
+          <p><a href="http://activesurplus.com">http://activesurplus.com</a></p>
+          <p>347 Queen Street West - 2nd floor, Toronto, ON</p>
+          <p>(416) 593-0909</p>
+        </div>
+        <div class="listing-content">
+          <p>Carries major electronics components plus cheap, quirky surplus items. Everything sold “as is” so it may be hard to find the exact item you’re looking for since they don’t offer datasheets or specs. 20-30% of inventory turns over often so wander its aisles every month or so.</p>
+
+        </div>
+      </div>
+      <div class="listing-map">
+        <a href="http://maps.google.com?q=347+Queen+Street+West+-+2nd+floor%2C+Toronto%2C+ON" target="_blank"><img src="http://maps.googleapis.com/maps/api/staticmap?size=300x300&markers=color:red%7C347+Queen+Street+West+-+2nd+floor%2C+Toronto%2C+ON"></a>
+      </div>
+    </article>
+    
+    <article>
+      <div class="listing-text">
+        <h3>Creatron</h3>
+        <div class="listing-meta">
+          <p><a href="http://creatroninc.com">http://creatroninc.com</a></p>
+          <p>349 College St, Toronto, ON</p>
+          <p>(647) 349 9258</p>
+        </div>
+        <div class="listing-content">
+          <p>Carries almost all of the major electronics components in very neat organized baggies on the wall or bins in the back. This is one of the few places you’ll be able to pick up an Arduino or Arduino-related hardware in Toronto. Carries a small collection of the kits you might find at Sparkfun or the Makezine store (listed as online retailers below) so Creatron is definitely worth checking out if you don’t want to wait for shipping, plus the prices are comparable.</p>
+
+<p><em>Note: As of mid-2014, Creatron opened a new store at Vic Park and Sheppard and moved their original downtown store to 349 College St (at Augusta Ave) from previous location at 255 College St (at Spadina Ave).</em></p>
+
+<p><em>Note: The new downtown location is smaller so doesn’t stock everything that Creatron sells. They will bring items down from their better stocked suburban store - just give them a call to ask.</em></p>
+
+        </div>
+      </div>
+      <div class="listing-map">
+        <a href="http://maps.google.com?q=349+College+St%2C+Toronto%2C+ON" target="_blank"><img src="http://maps.googleapis.com/maps/api/staticmap?size=300x300&markers=color:red%7C349+College+St%2C+Toronto%2C+ON"></a>
+      </div>
+    </article>
+    
+    <article>
+      <div class="listing-text">
+        <h3>Creatron - Scarborough store</h3>
+        <div class="listing-meta">
+          <p><a href="https://www.creatroninc.com/">https://www.creatroninc.com/</a></p>
+          <p>3127 Sheppard Ave. East, Scarborough, Ontario, Canada M1T 3J7</p>
+          <p>(416) 977 9258</p>
+        </div>
+        <div class="listing-content">
+          <p>Opened mid-2014. Same owners as the Spadina Creatron, but they tend to have a wider range of stock (plus Lawrence the owner is based there and he’s a great resource on electronic design if he has time).</p>
+
+        </div>
+      </div>
+      <div class="listing-map">
+        <a href="http://maps.google.com?q=3127+Sheppard+Ave.+East%2C+Scarborough%2C+Ontario%2C+Canada+M1T+3J7" target="_blank"><img src="http://maps.googleapis.com/maps/api/staticmap?size=300x300&markers=color:red%7C3127+Sheppard+Ave.+East%2C+Scarborough%2C+Ontario%2C+Canada+M1T+3J7"></a>
+      </div>
+    </article>
+    
+    <article>
+      <div class="listing-text">
+        <h3>Sayal</h3>
+        <div class="listing-meta">
+          <p><a href="http://sayal.com">http://sayal.com</a></p>
+          <p>3791 Victoria Park Ave - Units 1-5, Toronto, ON</p>
+          <p>(416) 494-8999</p>
+        </div>
+        <div class="listing-content">
+          <p>Additional stores in Mississauga, Vaughan, Cambridge, and Burlington. Never been there but apparently has a lot bigger selection than Supremetronics.</p>
+
+        </div>
+      </div>
+      <div class="listing-map">
+        <a href="http://maps.google.com?q=3791+Victoria+Park+Ave+-+Units+1-5%2C+Toronto%2C+ON" target="_blank"><img src="http://maps.googleapis.com/maps/api/staticmap?size=300x300&markers=color:red%7C3791+Victoria+Park+Ave+-+Units+1-5%2C+Toronto%2C+ON"></a>
+      </div>
+    </article>
+    
+    <article>
+      <div class="listing-text">
+        <h3>Supremetronic</h3>
+        <div class="listing-meta">
+          <p><a href=""></a></p>
+          <p>290 College St, Toronto, ON</p>
+          <p>(416) 922-1158</p>
+        </div>
+        <div class="listing-content">
+          <p>Carries a wider range of electronics components than Active Surplus but not as much as Creatron. Specs are marked on most bins. </p>
+
+<p><em>Note: Supremetronic is part of Home Hardware and is located in the basement of this Home Hardware location.</em></p>
+
+        </div>
+      </div>
+      <div class="listing-map">
+        <a href="http://maps.google.com?q=290+College+St%2C+Toronto%2C+ON" target="_blank"><img src="http://maps.googleapis.com/maps/api/staticmap?size=300x300&markers=color:red%7C290+College+St%2C+Toronto%2C+ON"></a>
+      </div>
+    </article>
+    
 
   </section>
 
   <section id="toronto">
     <h2>Toronto Hardware &amp; Misc Retailers</h2>
 
-    {% for listing in site.toronto_hardware_misc %}
+    
     <article>
       <div class="listing-text">
-        <h3>{{ listing.name }}</h3>
+        <h3>Brafasco (CTF Supply)</h3>
         <div class="listing-meta">
-          <p><a href="{{ listing.website }}">{{ listing.website }}</a></p>
-          <p>{{ listing.address }}</p>
-          <p>{{ listing.phone }}</p>
+          <p><a href="http://brafasco.com">http://brafasco.com</a></p>
+          <p>31 Parliament St, Toronto, ON</p>
+          <p>(416) 364-9191</p>
         </div>
         <div class="listing-content">
-          {{ listing.content | markdownify }}
+          <p>If you’ve got a tricky screw head (tamper-resisant ones) they might have the right screwdriver for you. </p>
+
         </div>
       </div>
       <div class="listing-map">
-        <a href="http://maps.google.com?q={{ listing.address | cgi_escape}}" target="_blank"><img src="http://maps.googleapis.com/maps/api/staticmap?size=300x300&markers=color:red%7C{{ listing.address | cgi_escape}}"></a>
+        <a href="http://maps.google.com?q=31+Parliament+St%2C+Toronto%2C+ON" target="_blank"><img src="http://maps.googleapis.com/maps/api/staticmap?size=300x300&markers=color:red%7C31+Parliament+St%2C+Toronto%2C+ON"></a>
       </div>
     </article>
-    {% endfor %}
+    
+    <article>
+      <div class="listing-text">
+        <h3>LaserGlow</h3>
+        <div class="listing-meta">
+          <p><a href="http://laserglow.com">http://laserglow.com</a></p>
+          <p>5 Adrian Ave, Toronto, ON</p>
+          <p>(416) 729-7976</p>
+        </div>
+        <div class="listing-content">
+          <p>Need lasers for your next GRL Laser Tag project? Special infrared lasers? Email the folks there (or ask for Justin) and they can work with you to get you the right laser. They don’t carry everything in stock so give them at least 2-3 weeks notice first so they can order it from their supplier. </p>
+
+        </div>
+      </div>
+      <div class="listing-map">
+        <a href="http://maps.google.com?q=5+Adrian+Ave%2C+Toronto%2C+ON" target="_blank"><img src="http://maps.googleapis.com/maps/api/staticmap?size=300x300&markers=color:red%7C5+Adrian+Ave%2C+Toronto%2C+ON"></a>
+      </div>
+    </article>
+    
+    <article>
+      <div class="listing-text">
+        <h3>Lee Valley</h3>
+        <div class="listing-meta">
+          <p><a href="http://leevalley.com">http://leevalley.com</a></p>
+          <p>590 King Street W, Toronto, ON</p>
+          <p>(416) 366-5959</p>
+        </div>
+        <div class="listing-content">
+          <p>Two other locations in Toronto and online shopping available. Lee Valley is kind of a throwback to the 70s and 80s since Lee Valley is really famous for their catalouge sales. But the things they stock are the best of the best. </p>
+
+        </div>
+      </div>
+      <div class="listing-map">
+        <a href="http://maps.google.com?q=590+King+Street+W%2C+Toronto%2C+ON" target="_blank"><img src="http://maps.googleapis.com/maps/api/staticmap?size=300x300&markers=color:red%7C590+King+Street+W%2C+Toronto%2C+ON"></a>
+      </div>
+    </article>
+    
+    <article>
+      <div class="listing-text">
+        <h3>Rotblott's Discount Warehouse</h3>
+        <div class="listing-meta">
+          <p><a href="http://rotblotts.com">http://rotblotts.com</a></p>
+          <p>443 Adelaide Street W, Toronto, ON</p>
+          <p>(416) 703-0456</p>
+        </div>
+        <div class="listing-content">
+          <p>This is a go-to destination if you work in the film industry. They have a random assortment of hardware and office supplies, along with surplus items. But my favourite thing is something called “Gaffers tape” which is a slightly more expensive tape than duct tape, but it doesn’t leave any sticky residue behind when removed. </p>
+
+        </div>
+      </div>
+      <div class="listing-map">
+        <a href="http://maps.google.com?q=443+Adelaide+Street+W%2C+Toronto%2C+ON" target="_blank"><img src="http://maps.googleapis.com/maps/api/staticmap?size=300x300&markers=color:red%7C443+Adelaide+Street+W%2C+Toronto%2C+ON"></a>
+      </div>
+    </article>
+    
+    <article>
+      <div class="listing-text">
+        <h3>Toronto Tool Library</h3>
+        <div class="listing-meta">
+          <p><a href="http://torontotoollibrary.com/">http://torontotoollibrary.com/</a></p>
+          <p>1499 Queen St W, Toronto, ON, M6R 1A3</p>
+          <p>(647) 965-5604</p>
+        </div>
+        <div class="listing-content">
+          <p>Non-profit tool rental service providing everyone with access to home repair tools and power tools.</p>
+
+<p>As a member of the Toronto Tool Library, members signout tools for both their home and community initiatives. Whether you are hanging a picture or renovating a community park, the Toronto Tool Library offers a rangeof equipment for your project as a low-cost, resource sharing and space-saving alternative to purchasing and owning tools. Non-profits and charitable organizations will also enjoy special membership rates.</p>
+
+        </div>
+      </div>
+      <div class="listing-map">
+        <a href="http://maps.google.com?q=1499+Queen+St+W%2C+Toronto%2C+ON%2C+M6R+1A3" target="_blank"><img src="http://maps.googleapis.com/maps/api/staticmap?size=300x300&markers=color:red%7C1499+Queen+St+W%2C+Toronto%2C+ON%2C+M6R+1A3"></a>
+      </div>
+    </article>
+    
 
   </section>
 
   <section id="online">
     <h2>Online Retailers</h2>
 
-    {% for listing in site.online_retailers %}
+    
     <article>
-      <h3>{{ listing.name }}</h3>
+      <h3>Adafruit Industries</h3>
       <div class="listing-meta">
-        <p><a href="{{ listing.website }}">{{ listing.website }}</a></p>
+        <p><a href="http://adafruit.com">http://adafruit.com</a></p>
       </div>
       <div class="listing-content">
-        {{ listing.content | markdownify }}
+        <p>Adafruit has done tons for the maker community. Easy website to shop on with tutorials for both individual electronics components and their own custom kits like the MintyBoost. (U.S. based so be careful of customs.)</p>
+
       </div>
     </article>
-    {% endfor %}
+    
+    <article>
+      <h3>Brickyard Ceramics & Crafts</h3>
+      <div class="listing-meta">
+        <p><a href="http://brickyardceramics.com">http://brickyardceramics.com</a></p>
+      </div>
+      <div class="listing-content">
+        <p>Closest retailer of Amaco’s “Friendly Plastic” (polymorph plastic) – they are actually in the same building! If you have a GST account, call them directly and they can offer a 30% discount. (U.S. based so be careful of customs; and if you want next day or 3 day shipping, be prepared to pay $80, otherwise only $15 for regular 5-7 day standard shipping.)</p>
+
+      </div>
+    </article>
+    
+    <article>
+      <h3>Digikey</h3>
+      <div class="listing-meta">
+        <p><a href="http://digikey.ca">http://digikey.ca</a></p>
+      </div>
+      <div class="listing-content">
+        <p>U.S. based company that offers a Canadian retail portal; Prices are in CAD$ and customs/duty charges are already worked in so you won’t be surprised with a $30 FedEx bill for a $10 purchase. Shipping is cheap and prompt (2-5 days). Unless you know the exact part you’re looking for or have good specs, download a catalog for browsing.</p>
+
+      </div>
+    </article>
+    
+    <article>
+      <h3>Inventables</h3>
+      <div class="listing-meta">
+        <p><a href="http://inventables.com">http://inventables.com</a></p>
+      </div>
+      <div class="listing-content">
+        <p>All sorts of interesting and inspiring materials here. Get ready to browse this site for an hour!</p>
+
+      </div>
+    </article>
+    
+    <article>
+      <h3>Maker SHED</h3>
+      <div class="listing-meta">
+        <p><a href="http://makershed.com">http://makershed.com</a></p>
+      </div>
+      <div class="listing-content">
+        <p>A few years ago, the web store companion to the iconic Make magazine only really carried kits but today is a formidable place for getting Arduinos, Arduino accessories, and general electronics supplies. They even carry more one-off items such as Chumby Guts, Shapelock moldable plastic, and Pixel Qi screens.</p>
+
+      </div>
+    </article>
+    
+    <article>
+      <h3>Newark</h3>
+      <div class="listing-meta">
+        <p><a href="http://canada.newark.com">http://canada.newark.com</a></p>
+      </div>
+      <div class="listing-content">
+        <p>Alternative Canadian retail portal. Consider opening a FedEx, UPS, etc account so you have more shipping options (including guarenteed next day delivery) but I’ve never had to wait more than 2 days for my packages. Offers a nice visual “selector guide” section.</p>
+
+      </div>
+    </article>
+    
+    <article>
+      <h3>Robot Shop</h3>
+      <div class="listing-meta">
+        <p><a href="http://robotshop.ca">http://robotshop.ca</a></p>
+      </div>
+      <div class="listing-content">
+        <p>Not too sure where exactly they are based but there’s a Canadian retail portal; Prices are in CAD$ and customs/duty charges are already worked in. Haven’t bought anything robotics-related from them yet but I have purchased Flexinol wires from them – and they may be the only place in CAD$ that you can find them.</p>
+
+      </div>
+    </article>
+    
+    <article>
+      <h3>Sparkfun</h3>
+      <div class="listing-meta">
+        <p><a href="http://sparkfun.com">http://sparkfun.com</a></p>
+      </div>
+      <div class="listing-content">
+        <p>Super user-friendly electronics shopping. Very visual and easy to understand. Carries lots of Arduino-related products, including the LilyPad. (U.S. based so be careful of customs.)</p>
+
+      </div>
+    </article>
+    
+    <article>
+      <h3>Sundance Solar</h3>
+      <div class="listing-meta">
+        <p><a href="http://sundancesolar.com">http://sundancesolar.com</a></p>
+      </div>
+      <div class="listing-content">
+        <p>Retailer of solar panels and many other solar related items. User friendly product descriptions keeps you from shopping in the dark. (U.S. based so be careful of customs.)</p>
+
+      </div>
+    </article>
+    
 
   </section>
 
 </div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrap">
+
+    <div class="footer-col-1 column">
+      <h2>Made by</h2>
+      <ul>
+        <li>
+          <a href="https://twitter.com/PearlChen">
+            <span class="icon twitter">
+              <svg version="1.1" class="twitter-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+                <path fill="#C2C2C2" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27
+                c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767
+                c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206
+                C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271
+                c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469
+                c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+              </svg>
+            </span>
+            <span class="username">PearlChen</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-col-2 column">
+      <h2>Contribute</h2>
+      <ul>
+        <li>
+          <a href="https://github.com/pchen/electronics-shopping-toronto">
+            <span class="icon github">
+              <svg version="1.1" class="github-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+                <path fill-rule="evenodd" clip-rule="evenodd" fill="#C2C2C2" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761
+                c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32
+                c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472
+                c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037
+                C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65
+                c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261
+                c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082
+                c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129
+                c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+              </svg>
+            </span>
+            <span class="username">electronics-shopping-toronto</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-col-3 column">
+      <p class="text"></p>
+    </div>
+
+  </div>
+
+</footer>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-246174-1', 'auto');
+  ga('require', 'linker');
+  ga('linker:autoLink', ['karma-laboratory.com', 'klab.ca']);
+  ga('send', 'pageview');
+
+</script>
+
+
+    </body>
+</html>
