@@ -5,9 +5,33 @@ layout: default
 <div class="home">
 
   <section id="toronto">
-    <h2>Toronto Retailers</h2>
+    <h2>Toronto Electronics Retailers</h2>
 
     {% for listing in site.toronto_retailers %}
+    <article>
+      <div class="listing-text">
+        <h3>{{ listing.name }}</h3>
+        <div class="listing-meta">
+          <p><a href="{{ listing.website }}">{{ listing.website }}</a></p>
+          <p>{{ listing.address }}</p>
+          <p>{{ listing.phone }}</p>
+        </div>
+        <div class="listing-content">
+          {{ listing.content | markdownify }}
+        </div>
+      </div>
+      <div class="listing-map">
+        <a href="http://maps.google.com?q={{ listing.address | cgi_escape}}" target="_blank"><img src="http://maps.googleapis.com/maps/api/staticmap?size=300x300&markers=color:red%7C{{ listing.address | cgi_escape}}"></a>
+      </div>
+    </article>
+    {% endfor %}
+
+  </section>
+
+  <section id="toronto">
+    <h2>Toronto Hardware &amp; Misc Retailers</h2>
+
+    {% for listing in site.toronto_hardware_misc %}
     <article>
       <div class="listing-text">
         <h3>{{ listing.name }}</h3>

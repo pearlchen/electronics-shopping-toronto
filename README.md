@@ -30,7 +30,7 @@ Go to **http://localhost:4000**.
 
 ### To add a Toronto or GTA retailer
 
-1. Create a new Markdown (.md) file in the **_toronto_retailers** folder. Give it a file name representing the store's name (all in lowercase, separate spaces with an underscore). If a store has several locations, consider making an entry for each location so there's a snazzy Google Map for each one. 
+1. Create a new Markdown (.md) file in either the **_toronto_retailers** or **_toronto_hardware_misc** folder. Give it a file name representing the store's name (all in lowercase, separate spaces with an underscore). If a store has several locations, consider making an entry for each location so there's a snazzy Google Map for each one. 
 
 2. All local retailers have this format for their template:
 
@@ -47,6 +47,8 @@ BLURB ABOUT THE STORE GOES HERE.
 
 IT CAN BE MULTIPLE PARAGRAPHS BUT BEST TO BE SHORT & SWEET. (AND NO... IT SHOULDN'T BE WRITTEN IN ALL CAPS.)
 ```
+
+If a retailer doesn't have a website, just remove that line.
 
 ### To add an online retailer
 
