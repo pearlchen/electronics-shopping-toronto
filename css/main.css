@@ -18,6 +18,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 
+p {
+  margin-bottom: 1em;
+}
+
 a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
 a:visited { color: #205caa; }
@@ -127,14 +131,14 @@ a:visited { color: #205caa; }
 /* ----------------------------------------------------------*/
 
 .home h2 {
-  margin-bottom: 25px;
   font-size: 22px;
   background-color: black;
   color: white;
   padding: 0.2em 0.5em 0.1em;
+  letter-spacing: 1px;
 }
 
-.home h2:not(:first-of-type) {
+.home section:not(:first-of-type) {
   margin-top: 25px;
 }
 
@@ -143,6 +147,14 @@ a:visited { color: #205caa; }
 }
 
 .home article {
+  padding: 2em 0;
+}
+
+.home article:not(:last-of-type) {
+  border-bottom: 1px solid #ccc;
+}
+
+.home #toronto article {
   position: relative; /* for right positioning on map */
   overflow: hidden;
   min-height: 300px; /* size of map */
@@ -162,14 +174,18 @@ a:visited { color: #205caa; }
   color: #818181;
 }
 
+.home .listing-meta p {
+  margin-bottom: 0;
+}
+
 .home .listing-content {
-  margin: 20px 0;
+  margin: 0.6em 0;
 }
 
 .home .listing-map {
   position: absolute;
   right: 0;
-  top: 0;
+  top: 2em;
   width: 300px;
   height: 300px;
 }
