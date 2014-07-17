@@ -71,4 +71,5 @@ IT CAN BE MULTIPLE PARAGRAPHS BUT BEST TO BE SHORT & SWEET. (AND NO... IT SHOULD
 ## Roadmap
 
 * [ ] Add CI to automatically deploy contents of **_site** folder to **gh-pages** branch
+* [ ] Add ability to sort listings in non-alphabetical ways
 * [ ] Rewrite some content so be less opinionated and more factual 
