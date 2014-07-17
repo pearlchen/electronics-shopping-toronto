@@ -129,6 +129,13 @@ a:visited { color: #205caa; }
 .home h2 {
   margin-bottom: 25px;
   font-size: 22px;
+  background-color: black;
+  color: white;
+  padding: 0.2em 0.5em 0.1em;
+}
+
+.home h2:not(:first-of-type) {
+  margin-top: 25px;
 }
 
 .home h3 {

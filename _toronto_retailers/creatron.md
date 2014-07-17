@@ -1,5 +1,5 @@
 ---
-layout: listing
+layout: default
 name:  "Creatron"
 website: "http://creatroninc.com"
 address: "349 College St, Toronto, ON"

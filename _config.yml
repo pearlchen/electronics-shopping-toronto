@@ -10,3 +10,7 @@ twitter_username: PearlChen
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+collections:
+- toronto_retailers
+- online_retailers

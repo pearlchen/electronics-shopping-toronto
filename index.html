@@ -8,7 +8,7 @@ layout: default
 
     <h2>Toronto Retailers</h2>
 
-    {% for listing in site.posts %}
+    {% for listing in site.toronto_retailers %}
     <article>
       <section class="listing-text">
         <h3>{{ listing.name }}</h3>
@@ -24,6 +24,20 @@ layout: default
       <section class="listing-map">
         <a href="http://maps.google.com?q={{ listing.name }},%20{{ listing.address | cgi_escape}}"><img src="http://maps.googleapis.com/maps/api/staticmap?size=300x300&markers=color:red%7C{{ listing.address | cgi_escape}}"></a>
       </section>
+    </article>
+    {% endfor %}
+
+    <h2>Online Retailers</h2>
+
+    {% for listing in site.online_retailers %}
+    <article>
+      <h3>{{ listing.name }}</h3>
+      <div class="listing-meta">
+        <p><a href="{{ listing.website }}">{{ listing.website }}</a></p>
+      </div>
+      <div class="listing-content">
+        {{ listing.content }}
+      </div>
     </article>
     {% endfor %}
 
