@@ -7,6 +7,13 @@ A listing of local and online electronics &amp; hardware retailers specifically 
 
 This site was put together by Pearl Chen to make sure that you can find hobby electronics supplies in Toronto.
 
+## Improvement roadmap
+
+* [ ] Add CI to automatically deploy contents of **_site** folder to **gh-pages** branch
+* [ ] Add ability to sort listings in non-alphabetical ways
+* [ ] Rewrite some content so be less opinionated and more factual
+* [ ] Make it look more spiffy
+
 ## Contribute
 
 The retailers listing is part of a [Github repo](https://github.com/pchen/electronics-shopping-toronto) and I accept pull requests. For minor changes, go ahead and submit the PR. For more major ones, please open up a [Github issue](https://github.com/pchen/electronics-shopping-toronto/issues) for discussion.
@@ -68,8 +75,3 @@ BLURB ABOUT THE STORE GOES HERE.
 IT CAN BE MULTIPLE PARAGRAPHS BUT BEST TO BE SHORT & SWEET. (AND NO... IT SHOULDN'T BE WRITTEN IN ALL CAPS.)
 ```
 
-## Roadmap
-
-* [ ] Add CI to automatically deploy contents of **_site** folder to **gh-pages** branch
-* [ ] Add ability to sort listings in non-alphabetical ways
-* [ ] Rewrite some content so be less opinionated and more factual 
