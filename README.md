@@ -20,7 +20,7 @@ The retailers listing is part of a [Github repo](https://github.com/pchen/electr
 
 For minor changes, go ahead and submit the PR. For more major ones, please open up a [Github issue](https://github.com/pchen/electronics-shopping-toronto/issues) for discussion.
 
-Already familiar with Git and pull requests? Cool, just do your usual thing.
+Already familiar with Git and pull requests? Cool, keep reading.
 
 If you're not, you might find it easier to [Submit the PR via Github](#submit-the-pr-via-github)
 
