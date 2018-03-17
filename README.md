@@ -9,6 +9,8 @@ This site was put together by Pearl Chen to make sure that you can find hobby el
 
 ## Improvement roadmap
 
+Contributors needed and welcomed!
+
 * [ ] Add CI to automatically deploy contents of **_site** folder to **gh-pages** branch
 * [ ] Add ability to sort listings in non-alphabetical ways
 * [ ] Rewrite some content so be less opinionated and more factual
@@ -16,7 +18,7 @@ This site was put together by Pearl Chen to make sure that you can find hobby el
 
 ## Want to contribute?
 
-The retailers listing is part of a [Github repo](https://github.com/pchen/electronics-shopping-toronto) and I accept pull requests (PR) for updates and new listings. 
+The retailers listing is part of a [Github repo](https://github.com/pchen/electronics-shopping-toronto) and I accept pull requests (PR) for updates and new listings.
 
 For minor changes, go ahead and submit the PR. For more major ones, please open up a [Github issue](https://github.com/pchen/electronics-shopping-toronto/issues) for discussion.
 
@@ -43,7 +45,7 @@ Go to **http://localhost:4000**.
 
 ### To add a Toronto or GTA retailer
 
-1. Create a new Markdown (.md) file in either the **_toronto_retailers** or **_toronto_hardware_misc** folder. Give it a file name representing the store's name (all in lowercase, separate spaces with an underscore). If a store has several locations, consider making an entry for each location so there's a snazzy Google Map for each one. 
+1. Create a new Markdown (.md) file in either the **_toronto_retailers** or **_toronto_hardware_misc** folder. Give it a file name representing the store's name (all in lowercase, separate spaces with an underscore). If a store has several locations, consider making an entry for each location so there's a snazzy Google Map for each one.
 
 2. All local retailers have this format for their template:
 
@@ -97,7 +99,7 @@ When you're done, scroll down to the bottom and click **Commit new file**:
 
 ![Click Commit new file](readme_images/click-commit-new-file.png)
 
-You'll end up on your branch of the electronics-shopping-toronto repository so now you need to submit a pull request to get your branch into my branch. 
+You'll end up on your branch of the electronics-shopping-toronto repository so now you need to submit a pull request to get your branch into my branch.
 
 So go ahead and click **Pull Request**:
 
